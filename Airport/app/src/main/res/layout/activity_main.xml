@@ -41,11 +41,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="257dp"
-        android:layout_height="185dp"
+        android:layout_width="311dp"
+        android:layout_height="199dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        /><!--app:srcCompat="@drawable/icon" -->
+        android:background="#000"
+        app:srcCompat="@mipmap/logo" />
 
 
 </RelativeLayout>

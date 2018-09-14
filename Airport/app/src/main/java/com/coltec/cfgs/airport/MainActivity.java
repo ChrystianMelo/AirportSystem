@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                Intent intentADM = new Intent(MainActivity.this, Travel.class);
+
                 // cria o bundle e o insere na nova Intent
                 Bundle args = new Bundle();
                 args.putString("Nome", user.getText().toString());
@@ -30,7 +32,13 @@ public class MainActivity extends AppCompatActivity {
 
                 intent.putExtras(args);
 
-                startActivity(intent);//login tela
+                if (user.getText().toString().equals("admin")&&pass.getText().toString().equals("password")) {
+                    startActivity(intentADM);//ADM tela
+                    finish();
+                }else {
+                    startActivity(intent);//user tela
+                    finish();
+                }
             }
         });
 

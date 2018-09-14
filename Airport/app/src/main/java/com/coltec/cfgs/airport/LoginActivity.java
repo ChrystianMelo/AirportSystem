@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 /**
- * Created by a2016953173 on 13/09/18.
+ * Created by ChrystianMelo on 13/09/18.
  */
 
 public class LoginActivity extends AppCompatActivity {
