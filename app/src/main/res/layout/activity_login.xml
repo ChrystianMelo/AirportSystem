@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="#000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_Welcome"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome, "
+        android:textSize="40dp"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_Name"
+        android:text="User!!"
+        android:layout_centerHorizontal="true"
+        android:textSize="60dp"
+        android:layout_below="@id/text_Welcome"
+        android:textColor="#fff"
+        />
+
+</RelativeLayout>
