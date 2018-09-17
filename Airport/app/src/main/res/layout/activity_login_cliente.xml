@@ -3,56 +3,62 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".Travel"
+    tools:context=".ClienteLoginActivity"
     android:background="#000">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/titulo"
-        android:text="Settings->"
-        android:background="#99AD1A"
+        android:id="@+id/text_Welcome"
         android:layout_centerHorizontal="true"
-        android:textSize="30dp"
+        android:text="Welcome, "
+        android:textSize="20dp"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_Name"
+        android:text="User!!"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
         android:layout_below="@id/text_Welcome"
         android:textColor="#fff"
         />
 
     <Button
-        android:id="@+id/add"
+        android:id="@+id/comprar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:text="Adicionar "
-        android:layout_marginTop="118dp"
+        android:layout_marginTop="190dp"
+        android:background="#7BA4B5"
+        android:text="Comprar passagens" />
+
+
+
+    <Button
+        android:id="@+id/upd"
+        android:layout_below="@id/comprar"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="Remarcar passagens"
         android:background="#7BA4B5"
         />
 
     <Button
+        android:id="@+id/del"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Cancelar viagem"
         android:layout_marginTop="10dp"
-        android:id="@+id/rm"
-        android:layout_below="@id/add"
-        android:text="Remover"
+        android:layout_below="@id/upd"
         android:background="#7BA4B5"
         />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="remarcar"
-        android:id="@+id/att"
-        android:layout_below="@id/rm"
-        android:background="#7BA4B5"
-        />
-
-
-
-
-
 
 </RelativeLayout>

@@ -16,9 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".Travel"></activity>
+        <activity android:name=".ClienteLoginActivity"></activity>
+        <activity android:name=".ADMLoginActiivity"></activity>
         <activity android:name=".Add"></activity>
+        <activity android:name=".Remarcar"></activity>
+        <activity android:name=".Rm"></activity>
     </application>
 
 </manifest>

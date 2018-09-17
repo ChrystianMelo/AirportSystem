@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Add"
+    android:background="#000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo"
+        android:text="Remarcar->"
+        android:background="#99AD1A"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_below="@id/text_Welcome"
+        android:textColor="#fff"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Remarcar viagem"
+        android:id="@+id/aviao"
+        android:layout_centerVertical="true"
+        android:background="#7BA4B5"
+        />
+
+
+
+
+
+
+</RelativeLayout>

@@ -82,7 +82,7 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/a2016953173/Downloads/[AEDS] Airport/AirplaneSystem/Airport/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from /home/a2016953173/Downloads/[AEDS] Airport/AirplaneSystem/Airport/app/src/main/AndroidManifest.xml:16:27-74
-activity#com.coltec.cfgs.airport.LoginActivity
+activity#com.coltec.cfgs.airport.ClienteLoginActivity
 ADDED from /home/a2016953173/Downloads/[AEDS] Airport/AirplaneSystem/Airport/app/src/main/AndroidManifest.xml:19:9-60
 	android:name
 		ADDED from /home/a2016953173/Downloads/[AEDS] Airport/AirplaneSystem/Airport/app/src/main/AndroidManifest.xml:19:19-48

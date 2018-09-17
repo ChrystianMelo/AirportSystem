@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
         btn_Sign.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-                Intent intentADM = new Intent(MainActivity.this, Travel.class);
+                Intent intent = new Intent(MainActivity.this, ClienteLoginActivity.class);
+                Intent intentADM = new Intent(MainActivity.this, ADMLoginActiivity.class);
 
                 // cria o bundle e o insere na nova Intent
                 Bundle args = new Bundle();
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtras(args);
 
                 if (user.getText().toString().equals("admin")&&pass.getText().toString().equals("password")) {
-                    startActivity(intentADM);//ADM tela
+                    startActivity(intentADM);//ADMLoginActiivity tela
                     finish();
                 }else {
                     startActivity(intent);//user tela
