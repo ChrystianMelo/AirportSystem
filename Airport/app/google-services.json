@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "1028934134013",
+    "firebase_url": "https://the-airport.firebaseio.com",
+    "project_id": "the-airport",
+    "storage_bucket": "the-airport.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028934134013:android:365d65a63ebefc0f",
+        "android_client_info": {
+          "package_name": "com.coltec.cfgs.airport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028934134013-sk6vkuiugfr2tbnqkk9l72lmq42340tu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coltec.cfgs.airport",
+            "certificate_hash": "7e5de28fc3c0938a777e75f76e52c955325f3ae4"
+          }
+        },
+        {
+          "client_id": "1028934134013-4lmqmrrip79med01pfplt4s1c6ohm0vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuPODqQ_0xzoZo5eEdefHk_N80Q6T4hBs"
+        },
+        {
+          "current_key": "AIzaSyAuPODqQ_0xzoZo5eEdefHk_N80Q6T4hBs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028934134013-4lmqmrrip79med01pfplt4s1c6ohm0vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
